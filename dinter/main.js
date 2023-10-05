@@ -13,13 +13,22 @@ if (contraseña === "Muñeco") {
 
         switch (opcion) {
             case "1":
-                console.log("Controladores de Temperatura");
+                alert(`
+                 1- NG-2
+                 2- NF-2
+                 3- NL-2
+                `);
                 break;
             case "2":
-                console.log("Temporizadores");
+                alert(`
+                 1- TL-2
+                 2- TG-2
+                 3- TW-2`);
                 break;
             case "3":
-                console.log("Dosificadores de Agua");
+                alert(`
+                 1- LF-19
+                 2- CRD`);
                 break;                              
             default:
                 alert("Opcion incorrecta, elija nuevamente");
